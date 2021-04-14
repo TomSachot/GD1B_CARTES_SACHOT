@@ -13,12 +13,15 @@
 
     bool Monstre::testVictoire(){
         if(pvMonstre1==0 && pvMonstre2>0){
+            partiegagnee = true;
             std::cout << "Victoire du joueur 2 !";
         }
         if(pvMonstre1>0 && pvMonstre2==0){
+            partiegagnee = true;
             std::cout << "Victoire du joueur 1 !";
         }
         if(pvMonstre1==0 && pvMonstre2==0){
+            partiegagnee = false;
             std::cout << "Egalité..."
         }
 
@@ -31,17 +34,20 @@
 
     bool Monstre::testVictoire(){
         if(pvMonstre1==0 && pvMonstre2>0){
+            partiegagnee = true;
             std::cout << "Victoire du joueur 2 !";
         }
         if(pvMonstre1>0 && pvMonstre2==0){
+            partiegagnee = true;
             std::cout << "Victoire du joueur 1 !";
         }
         if(pvMonstre1==0 && pvMonstre2==0){
+            partiegagnee = false;
             std::cout << "Egalité..."
         }
 
     }
 
     void Monstre::finTour(){
-        
+
     }
