@@ -6,6 +6,10 @@
 class Monstre{
 
     private:
+        int attaqueMonstre1;
+        int attaqueMonstre2;
+        int pvMonstre1;
+        int pvMonstre2;
         int _numeroTour;
 
     public:
