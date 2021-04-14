@@ -5,6 +5,18 @@
 
 class Monstre{
 
-        private:
-        
-}
+    private:
+        int _numeroTour;
+
+    public:
+        Monstre();
+        void attaqueMonstre1();
+        bool testVictoire();
+        void attaqueMonstre2();
+        bool testVictoire();
+
+        void finTour();
+
+};
+
+#endif
